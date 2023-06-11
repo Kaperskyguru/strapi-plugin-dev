@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "info": {
+    "tableName": "linkr-tags",
+    "singularName": "linkr-tag",
+    "pluralName": "linkr-tags",
+    "displayName": "tags"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": false
+    },
+    "content-type-builder": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "min": 1,
+      "required": true,
+      "configurable": false
+    },
+    "slug": {
+      "type": "string",
+      "min": 1,
+      "required": true,
+      "configurable": false
+    },
+    "description": {
+      "type": "text",
+      "configurable": false
+    }
+  }
+}
