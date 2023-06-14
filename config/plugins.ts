@@ -1,8 +1,8 @@
 export default {
   // ...
-  linkr: {
+  prettify: {
     enabled: true,
-    resolve: "./src/plugins/linkr",
+    resolve: "./src/plugins/prettify",
   },
   // ...
 };
